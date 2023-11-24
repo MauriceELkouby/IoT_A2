@@ -1,0 +1,20 @@
+[                                                                                                                                                                                                                                                                               [
+    {"conditions":
+        [
+            {"topic":"water/temp","comparison":"<","value":18}
+        ],
+     "results":
+        [
+            {"topic":"water/heater","value":"on"}
+        ]
+    },
+    {"conditions":
+        [
+            {"topic":"water/temp","comparison":">=","value":25}
+        ],
+     "results":
+        [
+            {"topic":"water/heater","value":"off"}
+        ]
+    }
+]
