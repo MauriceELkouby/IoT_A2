@@ -1,0 +1,6 @@
+In my config.json file, I have two conditions, one of which would activate the heater when the temperature value goes below 18
+and the other turns off the heater when the temperature reaches above 25
+In my actor.py file it subscribes to the MQTT data to receive the on or off from the heater turning the potential relay on or off on request
+In the control.py file I connect to the MQTT broker load the json file publishes results to topic with taking into account conditions
+In my arduino file, I have the reading of a temperature sensor I got for my final project that I am using with my teamate. 
+For the demonstration, I had Issues with the download wires, where only one was working, therefore I wasnt able to test it out(I will have to buy a new wire(micro usb I think)
